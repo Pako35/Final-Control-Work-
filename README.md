@@ -28,3 +28,6 @@ cat
 ## Блок-схема для данный задачи
 ![Блок-схема](BlockScheme.jpg)
 
+## GitHub link
+
+https://github.com/Pako35/Final-Control-Work-
