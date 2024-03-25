@@ -1,18 +1,13 @@
 ﻿class Program
 {
-    static void Main(string[] args)
+    static string[] FilterStrings(string[] inputArray)
     {
-        // Initial array of strings
-        string[] initialArray = { "long", "one", "two", "short", "three", "longer", "another", "shorty" };
-
-        // Call the FilterStrings method and pass the initial array
-        string[] resultArray = FilterStrings(initialArray);
-
-        // Print the new array to the console
-        Console.WriteLine("Новый массив строк длиной <= 3 символов:");
-        foreach (string str in resultArray)
+        // Подсчитываем количество строк длиной <= 3 символов
+        int count = 0;
+        foreach (string str in inputArray)
         {
-            Console.WriteLine(str);
+            if (str.Length <= 3)
+            {
+                count++;
+            }
         }
-    }
-
