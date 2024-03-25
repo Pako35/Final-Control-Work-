@@ -11,3 +11,8 @@
                 count++;
             }
         }
+
+    // Создаем новый массив нужной длины
+        string[] outputArray = new string[count];
+        int index = 0;
+    
